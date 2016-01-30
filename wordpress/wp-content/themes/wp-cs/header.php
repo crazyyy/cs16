@@ -51,3 +51,7 @@
     <div class="middle">
       <div class="container">
         <div class="content">
+
+        <div class="content-tops">
+          <?php wpeHeadNav(); ?>
+        </div><!-- content-tops -->

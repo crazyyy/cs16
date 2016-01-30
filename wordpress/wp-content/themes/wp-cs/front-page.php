@@ -7,8 +7,6 @@
     ?>
     <?php foreach( $locations as $post ): ?>
 
-
-
       <div class="content-full">
         <div class="content-poster">
           <h1><?php echo get_the_title(); ?></h1>

@@ -29,10 +29,10 @@
   </div><!-- wrapper -->
 
   <?php wp_footer(); ?>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.base64.min.js"></script>
+
+  <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
+
   <script src="<?php echo get_template_directory_uri(); ?>/js/uptop.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/display.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
 
 </body>
 </html>

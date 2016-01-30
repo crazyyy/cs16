@@ -185,7 +185,8 @@ a.expand {
   }
   a {
     position: relative;
-    bottom: 40px;
+    /* bottom: 40px; */
+    bottom: 60px;
     left: 1px;
 
     display: inline-block;
@@ -333,7 +334,7 @@ a.skype-add {
   height: 84px;
   margin: 18px 0 0 0;
 
-  background: url(/img/hbanka.png) no-repeat 0 0;
+  background: url(../img/hbanka.png) no-repeat 0 0;
   a {
     width: 88px;
     height: 31px;
@@ -461,5 +462,39 @@ a.skype-add {
   .upTopButton,
   .upTopZone p {
     background-color: #525252;
+  }
+}
+
+.content-tops {
+  display: block;
+
+  margin: 0 auto 20px;
+  padding-top: 20px;
+  ul {
+    display: block;
+
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+  }
+  li {
+    display: inline-block;
+
+    width: 32%;
+
+    text-align: center;
+    a {
+      font-size: 140%;
+
+      text-decoration: none;
+      text-transform: uppercase;
+
+      color: #fff;
+      border-bottom: 1px dotted transparent;
+      &:hover {
+        border-color: #fff;
+      }
+    }
   }
 }
