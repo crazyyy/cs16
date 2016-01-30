@@ -336,3 +336,106 @@ a.skype-add {
     padding: 9px 0 0 23px;
   }
 }
+
+.upTop {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+
+  display: none;
+
+  width: 100px;
+  height: 100%;
+}
+
+.upTopButton {
+  position: fixed;
+  top: 25px;
+  left: 10px;
+
+  width: 27px;
+  height: 27px;
+
+  cursor: pointer;
+
+  background: #777 url(../img/goup.png) no-repeat;
+}
+
+.upTopZone {
+  display: none;
+
+  width: 100px;
+  height: 100%;
+
+  cursor: pointer;
+
+  background: url(../img/upbg.png) repeat;
+  p {
+    font-family: 'tahoma', 'verdana', 'arial';
+    font-size: 12px;
+    line-height: 25px;
+
+    position: fixed;
+    top: 25px;
+    left: 37px;
+
+    width: 63px;
+    height: 27px;
+    margin: 0;
+
+    text-align: center;
+
+    color: #fff;
+    background: #777;
+    text-shadow: 1px 1px 1px #000;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .upTopZone {
+    display: none !important;
+  }
+}
+
+.newblue {
+  .upTopButton,
+  .upTopZone p {
+    background-color: #3fa3e1;
+  }
+}
+
+.newgreen {
+  .upTopButton,
+  .upTopZone p {
+    background-color: #60bf3a;
+  }
+}
+
+.red {
+  .upTopButton,
+  .upTopZone p {
+    background-color: #ca2929;
+  }
+}
+
+.neworange {
+  .upTopButton,
+  .upTopZone p {
+    background-color: #ef990b;
+  }
+}
+
+.newpurple {
+  .upTopButton,
+  .upTopZone p {
+    background-color: #b053a0;
+  }
+}
+
+.newgrey {
+  .upTopButton,
+  .upTopZone p {
+    background-color: #525252;
+  }
+}
