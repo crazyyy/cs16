@@ -1,0 +1,1 @@
+$(function(){$(window).scroll(function(){$(this).scrollTop()>=50?($(".upTop").fadeIn(200),$(".upTop").hover(function(){$(".upTopZone").fadeIn(100)},function(){$(".upTopZone").fadeOut(100)})):$(".upTop, .upTopZone").fadeOut(200)}),$(".upTopZone, .upTopButton").click(function(){$("body, html").animate({scrollTop:0},1e3)})});
