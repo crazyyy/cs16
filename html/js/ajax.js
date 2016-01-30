@@ -1,0 +1,1 @@
+function changetype(a){"1"==a?($("#a_days_t").html("Кол-во дней"),$("#a_days").attr("placeholder","30")):"2"==a?($("#a_days_t").html("Кол-во дней"),$("#a_days").attr("placeholder","30")):"3"==a&&($("#a_days_t").html("Кол-во кругов"),$("#a_days").attr("placeholder","5"))}
