@@ -107,6 +107,18 @@ a.expand {
   border-bottom-left-radius: 3px;
   background: #292929;
   box-shadow: 0 1px 2px 0 rgba(50, 50, 50, .75);
+  a {
+    font-weight: bold;
+
+    text-decoration: none;
+
+    color: #dcdcdc;
+  }
+  .search-eng {
+    font-size: 11px;
+
+    color: #484848;
+  }
 }
 
 .logo {
@@ -197,18 +209,30 @@ a.expand {
 }
 
 .torrent {
+  bottom: 54px;
+
+  padding: 6px 6px 6px 30px;
+
   vertical-align: middle;
 
   background: rgba(104, 160, 175, .8) url(../img/mail.png) no-repeat left;
 }
 
 .site {
+  bottom: 54px;
+
+  padding: 6px 6px 6px 30px;
+
   vertical-align: middle;
 
   background: rgba(54, 54, 54, .8) url(../img/site.png) no-repeat left;
 }
 
 .disk {
+  bottom: 54px;
+
+  padding: 6px 6px 6px 30px;
+
   vertical-align: middle;
 
   background: rgba(40, 184, 84, .8) url(../img/disk.png) no-repeat left;
